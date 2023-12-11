@@ -48,6 +48,6 @@ Bu basit Python programı, belirli kriterlere göre özel şifreler oluşturmak 
 
 Rakam ve özel karakter içeren bir şifre oluşturmak için:
 
-    ```bash
-    python app.py --num --char
-    ```
+```bash
+python app.py --num --char
+```
