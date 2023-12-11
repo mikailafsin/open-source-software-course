@@ -50,3 +50,4 @@ Bu basit Python programı, belirli kriterlere göre özel şifreler oluşturmak 
 
 	```bash
 	python app.py --num --char
+        ```
