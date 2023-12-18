@@ -1,0 +1,13 @@
+[Unit]
+Description=Projeme hizmet edecek olan Gunicorn ornegi
+After=network.target
+
+[Service]
+User=kali
+Group=www-data
+WorkingDirectory=/home/kali/Desktop/open-source-software-course/nginx-gunicorn-flask
+Environment="PATH=/home/kali/Desktop/open-source-software-course/nginx-gunicorn-flask/myflaskserviceenv/bin"
+ExecStart=/home/kali/Desktop/open-source-software-course/nginx-gunicorn-flask/myflaskserviceenv/bin/gunicorn --workers 5 --bind unix:myflaskservice.sock -m 007 wsgi:myflaskapp
+
+[Install]
+WantedBy=multi-user.target
