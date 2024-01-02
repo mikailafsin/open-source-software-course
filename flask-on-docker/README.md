@@ -12,7 +12,7 @@ Bu proje, Flask web uygulamasını Docker container'ında çalıştırmak için 
 
     ```bash
     git clone https://github.com/mikailafsin/open-source-software-course.git
-    cd flask-on-docker
+    cd open-source-software-course/flask-on-docker
     ```
 
 2. Docker container'ını oluşturun ve çalıştırın:
